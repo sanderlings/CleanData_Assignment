@@ -9,4 +9,6 @@ The following files are in this repo:
 5. CodeBook,html - the generated HTML file from the CodeBook.md file  
 6. tidyData.txt - the transformed tidy dataset  
 
-To replicate, download the raw data and execute the R code.  The output will be the tidyData.txt file.  You may need to modify the setwd() and/or rename the file in write.table().
+To replicate, download the raw data zip fle, unzip it and put in a working dicrectory.  Modify the setwd() and execute the R code.  The output will be the 'tidyData.txt' file.  You can rename the output file in write.table().  
+
+**The detailed description of data transformation is in the CodeBook.md.**
