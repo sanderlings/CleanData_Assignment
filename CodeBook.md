@@ -10,13 +10,11 @@ These are the step in transforming the data:
 4. Read the 'y_test.txt file of the 'test' directory and label the column 'Activity'  
 5. Read the 'subject_test.txt file of the 'test' directory and label the column 'SubjectID'  
 6. Bind the formatted subject_test, y_test, X_test by column, in that order
-  
 7. Read the 'X_train.txt' files of the 'train' directory  
 8. Label the columns of the 'X_train.txt' file using the data from the trimmed 'features.txt' file  
 9. Read the 'y_train.txt file of the 'train' directory and label the column 'Activity'  
 10. Read the 'subject_train.txt file of the 'train' directory and label the column 'SubjectID'  
 11. Bind the formatted subject_train, y_train, X_train by column, in that order 
-  
 12. Bind the test and training set by row  
 13. Subset the data only with column name include the words 'mean(' or 'std('  
 14. Replace the numeric activity code with activity code and text; information of the activity   labels is from the 'activity_labels.txt'file  
